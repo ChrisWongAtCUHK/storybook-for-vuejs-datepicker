@@ -6,7 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-	"storybook": "start-storybook"
+    "storybook": "start-storybook",
+	"build-storybook": "build-storybook",
+	"deploy": "yarn build-storybook; gh-pages -d storybook-static"
   },
   "husky": {
     "hooks": {
@@ -43,6 +45,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.1.2",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
     "standard": "^14.3.1",
