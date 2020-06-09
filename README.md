@@ -1,8 +1,9 @@
-# storybook-for-vue
+# storybook-for-vuejs-datepicker
 
 ## Project setup
 ```
-git clone git@github.com:ChrisWongAtCUHK/storybook-for-vue.git
 yarn install
 yarn storybook
 ```
+
+## [vuejs-datepicker](https://www.npmjs.com/package/vuejs-datepicker#highlighted-dates)

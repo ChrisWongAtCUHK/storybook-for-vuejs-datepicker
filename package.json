@@ -1,14 +1,14 @@
 {
-  "name": "storybook-for-vue",
+  "name": "storybook-for-vuejs-datepicker",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook",
-	"build-storybook": "build-storybook",
-	"deploy": "yarn build-storybook; gh-pages -d storybook-static"
+    "storybook": "start-storybook -p 51031",
+    "build-storybook": "build-storybook",
+    "deploy": "yarn build-storybook; gh-pages -d storybook-static"
   },
   "husky": {
     "hooks": {
@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vuejs-datepicker": "^1.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
